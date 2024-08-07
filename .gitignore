@@ -1,3 +1,5 @@
 *.pyc
 dist/
 .venv
+*.xml
+test.log

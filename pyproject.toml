@@ -4,14 +4,21 @@ version = "0.1.0"
 description = ""
 authors = ["Renier Botha <r.botha91@gmail.com>"]
 readme = "README.md"
-packages = [{include = "itunes_organiser"}]
+packages = [{include = "itunes_library_manager", from = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
 requests = "^2.32.3"
 prettytable = "^3.10.2"
+pytest = "^8.3.2"
 
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.2"
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
