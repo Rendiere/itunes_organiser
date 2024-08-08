@@ -11,6 +11,15 @@ python = "^3.10"
 requests = "^2.32.3"
 prettytable = "^3.10.2"
 pytest = "^8.3.2"
+spotipy = "^2.24.0"
+python-dotenv = "^1.0.1"
+fastapi = "^0.112.0"
+uvicorn = {extras = ["standard"], version = "^0.30.5"}
+sqlalchemy = "^2.0.32"
+celery = "^5.4.0"
+redis = "^5.0.8"
+python-multipart = "^0.0.9"
+psycopg2-binary = "^2.9.9"
 
 
 [tool.poetry.group.dev.dependencies]
@@ -22,3 +31,6 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.pytest.ini_options]
 pythonpath = ["."]
+
+[tool.poetry.scripts]
+start = "src.scripts:start"

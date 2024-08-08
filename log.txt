@@ -1,0 +1,32 @@
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [celery internal] load build definition from Dockerfile
+#1 transferring dockerfile: 502B done
+#1 DONE 0.0s
+
+#2 [web internal] load build definition from Dockerfile
+#2 transferring dockerfile: 502B done
+#2 DONE 0.0s
+
+#3 [celery auth] library/python:pull token for registry-1.docker.io
+#3 DONE 0.0s
+
+#4 [web internal] load metadata for docker.io/library/python:3.9
+#4 CANCELED
+Stopping all processes...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [web internal] load build definition from Dockerfile
+#1 transferring dockerfile: 502B done
+#1 DONE 0.0s
+
+#2 [celery internal] load build definition from Dockerfile
+#2 transferring dockerfile: 502B done
+#2 DONE 0.0s
+
+#3 [web auth] library/python:pull token for registry-1.docker.io
+#3 DONE 0.0s
+
+#4 [celery internal] load metadata for docker.io/library/python:3.9
+#4 CANCELED
+Stopping all processes...

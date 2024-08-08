@@ -1,6 +1,6 @@
 import pytest
 from unittest.mock import mock_open, patch
-from src.itunes_library_manager.main import iTunesLibraryManager
+from src.itunes_library_manager.itunes_manager import iTunesLibraryManager
 
 @pytest.fixture
 def xml_content():

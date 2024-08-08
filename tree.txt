@@ -1,0 +1,41 @@
+.
+├── Dockerfile
+├── Library.xml
+├── Library_updated.xml
+├── README.md
+├── docker-compose.yml
+├── docs
+├── init.sql
+├── poetry.lock
+├── pyproject.toml
+├── src
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-310.pyc
+│   │   └── scripts.cpython-310.pyc
+│   ├── frontend
+│   │   ├── app.js
+│   │   └── index.html
+│   ├── itunes_library_manager
+│   │   ├── __pycache__
+│   │   │   ├── __init__.cpython-310.pyc
+│   │   │   ├── api.cpython-310.pyc
+│   │   │   ├── database.cpython-310.pyc
+│   │   │   ├── itunes_manager.cpython-310.pyc
+│   │   │   ├── main.cpython-310.pyc
+│   │   │   ├── models.cpython-310.pyc
+│   │   │   └── tasks.cpython-310.pyc
+│   │   ├── api.py
+│   │   ├── database.py
+│   │   ├── itunes_manager.py
+│   │   ├── models.py
+│   │   └── tasks.py
+│   ├── scripts.py
+│   └── tests
+│       ├── __pycache__
+│       │   └── test_itunes_library_manager.cpython-310-pytest-8.3.2.pyc
+│       └── test_itunes_library_manager.py
+├── tree.txt
+└── uploaded_library.xml
+
+9 directories, 30 files

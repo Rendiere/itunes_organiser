@@ -3,3 +3,5 @@ dist/
 .venv
 *.xml
 test.log
+.env
+*.cache
